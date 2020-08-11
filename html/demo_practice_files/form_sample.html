@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+	<h1>Login</h1>
+	<!-- <form action="http://wikipedia.com" method="GET"> -->
+	<!-- <form>
+	  <label>Username:
+	  		 <input name="username" type="text" placeholder="username">
+	  </label>
+	  <label>Password:
+	  	     <input name="password" type="password" placeholder="password">
+	  </label>
+	  <input type="submit" >
+	</form> -->
+	<form>
+	  <label for="username">Username:</label>
+	  <input id="username" type="text" placeholder="username">
+	  <label for="password">Password</label>
+	  <input id="password" type="password" placeholder="password">
+	  
+	  <!-- <button>Submit</button> -->
+	  <input type="submit" >
+	</form>
+
+	<p>Do you prefer dogs or cats?</p>
+	<form>
+		<label for="dogs">Dogs: </label>
+		<input type="radio" name="petChoice" id="dogs" value="DOGS">
+
+		<label for="cats">Cats: </label>
+		<input type="radio" name="petChoice" id="cats" value="CATS">
+
+		<p>What is your favourite color?</p>
+
+		<select name="color">
+			<option>Red</option>
+			<option>Orange</option>
+			<option>Yellow</option>
+		</select>
+
+		<p>What is your current mood?</p>
+		<select name="month">
+			<option value="happy">:)</option>
+			<option value="neutral">:|</option>
+			<option value="sad">:(</option>
+		</select>
+
+		<input type="text">
+
+		<textarea name="paragraph" rows="10" cols="10"></textarea>
+		<button>Submit</button>
+	</form>
+</body>
+</html>
