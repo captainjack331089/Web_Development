@@ -1,0 +1,53 @@
+/*Element*/
+li {
+
+}
+
+/*class*/
+.hello {
+
+}
+
+/*id*/
+#name {
+
+}
+/*Star*/
+/*will style all elements, but not very often use*/
+* {
+	border: 1px solid lightgrey;
+}
+
+/*Descendant Selector*/
+/*every anchor inside li take effect*/
+li a {
+	color: red;
+}
+
+/*Adjacent Selector*/
+/*select element that come after an element*/
+
+h4 + ul {
+	border: 4px solid red;
+}
+
+/*Attribute Selector*/
+/*a way to select element based on any attribute*/
+a[href="https://www.google.com"] {
+	background: blue;
+}
+
+input[type="text"] {
+	background: green;
+}
+
+/*nth of type*/
+/*takes a number, select every nth every specif elements*/
+
+ul:nth-of-type(3) {
+	background: purple;
+}
+
+li:nth-of-type(3) {
+	background: red;
+}
