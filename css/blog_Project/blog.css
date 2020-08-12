@@ -1,0 +1,40 @@
+body {
+	border: solid 15px #A7B2BB;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 20px;
+}
+
+h2 {
+	font-size: 15px;
+	letter-spacing: 10px;
+	color: #3882C2;
+	text-transform: uppercase;
+}
+
+.quote {
+	border-left: 5px solid #A7B2BB;
+	padding-left: 5px;
+}
+
+p {
+	font-family: Architects Daughter
+}
+
+hr {
+height: 30px;
+border-style: solid;
+border-color: black;
+border-width: 1px 0 0 0;
+border-radius: 20px;
+}
+hr:before {
+display: block;
+content: "";
+height: 30px;
+margin-top: -31px;
+border-style: solid;
+border-color: black;
+border-width: 0 0 1px 0;
+border-radius: 20px;
+}

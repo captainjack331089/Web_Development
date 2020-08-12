@@ -164,3 +164,133 @@ li:nth-of-type(3) {
 
 ---
 
+- Fonts 
+
+You can find all Fonts reference [here](https://www.cssfontstack.com/)
+
+Following are some common fonts set code:
+
+```css
+
+p {
+	font-family: Arial;
+}
+
+h1 {
+	font-family: Geneva;
+}
+
+/*font-size*/
+body {
+	font-size: 10px;
+}
+/*em is dynamic compare with others*/
+
+h1 {
+	font-size: 5.0em;
+}
+
+p {
+	font-size: 2.0em;
+}
+
+span {
+	font-size: 2.0em;  }
+
+/*font-weight*/
+/*how thick the lines/p are*/
+p {
+	font-weight: bold;
+	/*font-weight: normal;*/
+	/*font-weight: 100-800;*/
+}
+
+/*line-height	*/
+/*space between lines*/
+p {
+	line-height: 2;
+}
+
+/*text-align*/
+/*control how the text givien to the left or center or right*/
+h1 {
+	text-align: right;
+}
+
+p {
+	text-align: center;
+}
+
+/*text-decoration*/
+/*text-decoration is used to give text underline effect or line through or etc*/
+p {
+	text-decoration: underline;
+}
+
+h1 {
+	text-decoration: line-through;
+}
+```
+
+
+
+***Google Fonts:***
+
+When using google fonts.
+
+- Link google fonts url in html file.
+
+```html
+<html>
+<head>
+	<title>Fonts</title>
+	<link rel="stylesheet" type="text/css" href="font.css">
+	<link href="https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h1>Fonts Demo Page</h1>
+
+<p>yeezy</p>
+
+<p>jordan</p>
+</body>
+</html>
+```
+
+- add font family from google font to css file
+
+```css
+
+p {
+	font-family: 'Recursive';
+}
+```
+
+
+
+---
+
+
+
+-  ***Box Model***
+
+  - ***Content***
+
+    
+
+  - ***Padding***
+
+    Between border and content, called padding.
+
+    
+
+  - ***Border***
+
+  
+
+  - ***Margin***
+
+    Between the border and outside, called Margin.
+
+  
